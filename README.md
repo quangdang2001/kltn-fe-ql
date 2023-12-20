@@ -5,19 +5,19 @@
 **19110237 - Lê Hoàng Lộc <br/>
 19110270 - Đặng Lê Quang <br/>**
 
-## Team 56 WebApp all version
+## WebApp informations
 
-**Version 2.0** - Latest - Ecommerce app - HCMUTE TLCN project 2023 <br/>
+**Version 2.0** - Latest - E-commerce app - HCMUTE KLTN project 2023 <br/>
 **Link:** https://kltn-fe-ql.vercel.app/ <br/>
-**Version 1.0** - Old - TGDD clone app - Intership program Fsoft Acedemy 2022 <br/>
+**Version 1.0** - Old - TGDD clone app - Internship program Fsoft Academy 2023 <br/>
 **Link:** https://02-tgdd-react02.vercel.app
 
-## Noti - BE only (11/02/2022 - Loc - Team 56 Representation)
+## Noti - BE only
 
-Heroku's free dynos will no longer be available from 28, Novemver 2022 <br/>
+Heroku's free dynos will no longer be available from 28, Dec 2023 <br/>
 **Alter: Render WebService <br/>
 **Link: https://kltn-be-ql.onrender.com <br/>\*\*
 
-## Front-end. TLCN 2022. Iner note
+## Front-end. KLTN 2023. Inner note
 
 -Blank-
