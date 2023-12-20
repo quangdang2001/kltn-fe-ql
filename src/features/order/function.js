@@ -65,8 +65,7 @@ const orderController = {
 
     query
       .then((res) => {
-        console.log(res);
-        res.data && res.data.success
+        res.data && res.isSuccess
           ? dispatch(
               success({
                 message: res.data.message,

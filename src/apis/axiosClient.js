@@ -1,7 +1,7 @@
 import axios from "axios";
-
+import { API_BASE_URL } from "../constants";
 const baseURL = {
-  comment: "https://tlcn-2022-be.onrender.com/api",
+  comment: API_BASE_URL,
 };
 
 const axiosInstance = axios.create({

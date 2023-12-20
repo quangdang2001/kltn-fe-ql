@@ -97,6 +97,12 @@ const OrderState = ({ orderData, setOrderData }) => {
         primary="Trạng thái đơn hàng:"
         secondary={`Thời gian nhận hàng: ${orderData?.state || "Đang xử lý"}`}
       />
+      <ListOrderInfo
+        primary="Thanh toán:"
+        secondary={`Trạng thái: ${
+          orderData?.isPaid ? "Đã thanh toán" : "Chưa được thanh toán"
+        }`}
+      />
       {/* Button */}
       <Stack
         direction="row"

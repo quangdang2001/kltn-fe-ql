@@ -56,18 +56,21 @@ const PayOrder = () => {
       });
   }, [order]);
   const payOrder = async (data) => {
+    console.log("PAY ORDER DATA", data);
     // orderController.handlerPayOrder();
     // id: req.body.id,
     // status: req.body.status,
     // update_time: req.body.update_time,
     // email_address: req.body.payer.email_address,
-    orderController.handlerPayOrder({
-      orderId,
-      ...data,
-    }).then(()=>{
-      toast.success(`Thanh toán thành công`,toastObject)
-      history.push(`/redirect/order?orderId=${orderId}`);
-    })
+    orderController
+      .handlerPayOrder({
+        orderId,
+        ...data,
+      })
+      .then(() => {
+        toast.success(`Thanh toán thành công`, toastObject);
+        history.push(`/redirect/order?orderId=${orderId}`);
+      });
   };
   return (
     <Paper sx={{ width: "70%", margin: "0 auto" }}>
@@ -129,7 +132,7 @@ const PayOrder = () => {
             {/* ASSUME */}
             <TableRow>
               <TableCell rowSpan={1} />
-              
+
               <TableCell colSpan={1} />
 
               <TableCell colSpan={2} align="right">
@@ -165,7 +168,7 @@ const PayOrder = () => {
         <PayPalScriptProvider
           options={{
             "client-id":
-              "AYnnIG_uYjcamwk8Vcd5pTuDyCjl-MBx43rB-lB1eDYDNitB6swG_k97jMKAFcz0o98mjoPo1zs5ZOGP",
+              "AdfWybFpEFl8cQRhy4jpZIulmfFt5cipx7eX_xztKZWxTH1XAZv4MI25xSdw_NcXqdFGqQ3zCGq2DlA5",
             components: "buttons",
             currency: "USD",
           }}

@@ -29,7 +29,7 @@ const OrderConfirm = ({ cartInfo, orderInfo, disableOrder }) => {
     totalPrice: 0,
     voucher: "",
   });
-
+  console.log("PAYMENT METHOD", paymentMethod);
   //
   useEffect(() => {
     setOrderInput({
@@ -38,7 +38,7 @@ const OrderConfirm = ({ cartInfo, orderInfo, disableOrder }) => {
         country: "Việt Nam",
         city: orderInfo?.deliveryAddress?.split(",")[3]?.trim(),
       },
-      paymentMethod: paymentMethod !== "cod",
+      paymentMethod: paymentMethod,
       itemsPrice: cartInfo?.total,
       taxPrice: 0,
       shippingPrice: cartInfo?.serviceFee || 0,
@@ -71,12 +71,12 @@ const OrderConfirm = ({ cartInfo, orderInfo, disableOrder }) => {
         })
         .then((res) => {
           if (res.isSuccess) {
-            const { order } = res?.data;
+            const { _id } = res?.data;
 
             if (paymentMethod === "cod" || paymentMethod === "cod1") {
-              history.push(`/redirect/order?orderId=${order?._id}`);
+              history.push(`/redirect/order?orderId=${_id}`);
             } else {
-              history.push(`/order/pay/${order?._id}`);
+              history.push(`/order/pay/${_id}`);
             }
           } else {
             throw new ErrorResponse("Không thể tạo đơn hàng, thử lại", 500);
