@@ -145,7 +145,7 @@ const Register = () => {
 
             <div className="register_form_btn_socials">
               <a
-                href="https://tlcn-2022-be.onrender.com/api/oauth2/google"
+                href="https://kltn-be-ql.onrender.com/api/oauth2/google"
                 className="btn btn_icon flex_center"
               >
                 <i className="fa-brands fa-google "></i>
@@ -153,7 +153,7 @@ const Register = () => {
               </a>
 
               <a
-                href="https://tlcn-2022-be.onrender.com/api/oauth2/facebook"
+                href="https://kltn-be-ql.onrender.com/api/oauth2/facebook"
                 className="btn btn_icon flex_center"
               >
                 <i className="fa-brands fa-facebook "></i>
