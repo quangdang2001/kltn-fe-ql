@@ -26,7 +26,8 @@ const OauthGoogle = () => {
   const responseToken = getParamsValue(search, "token");
   const error = getParamsValue(search, "error");
   useEffect(() => {
-    addToLocalStorage(responseToken);
+    addToLocalStorage("accessToken", responseToken);
+    
     const access_token = responseToken;
     // call Api
     if (!currentUserId.userId) {
