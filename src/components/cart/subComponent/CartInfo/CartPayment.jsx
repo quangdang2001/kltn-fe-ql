@@ -100,7 +100,7 @@ const CartPayment = ({ setPaymentMethod, paymentMethod }) => {
                 }
                 onClick={() =>{
                   console.log('paypal')
-                  setPaymentMethod("paypal")
+                  setPaymentMethod(prev => "paypal")
                   }}
                 checked={paymentMethod == "paypal" ? "checked" : false}
               />

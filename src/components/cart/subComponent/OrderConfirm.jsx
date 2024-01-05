@@ -29,8 +29,6 @@ const OrderConfirm = ({ cartInfo, orderInfo, disableOrder }) => {
     totalPrice: 0,
     voucher: "",
   });
-  console.log("PAYMENT METHOD", paymentMethod);
-  //
   useEffect(() => {
     setOrderInput({
       shippingAddress: {
@@ -45,7 +43,7 @@ const OrderConfirm = ({ cartInfo, orderInfo, disableOrder }) => {
       totalPrice: cartInfo?.total + (cartInfo?.serviceFee || 0),
       voucher: 0,
     });
-  }, [cartInfo, orderInfo]);
+  }, [cartInfo, orderInfo, paymentMethod]);
   const handleOrderButtonClick = () => {
     if (orderInfo.deliveryAddress.trim().length === 0) {
       toast.warning(`Đừng bỏ trống địa chỉ giao hàng nhé`, {
