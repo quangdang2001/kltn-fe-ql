@@ -136,6 +136,7 @@ const AddCartModal = ({ closeModal, chooseOption, product }) => {
                     onChange={() =>
                       setBody({
                         ...body,
+                        quantity:1,
                         color: v._id,
                       })
                     }

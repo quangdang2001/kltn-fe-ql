@@ -87,15 +87,15 @@ const OrderState = ({ orderData, setOrderData }) => {
         secondary={toVND(orderData?.shippingPrice)}
       />
       {/* Process Time*/}
-      <ListOrderInfo
+      {/* <ListOrderInfo
         primary="Dự kiến xác nhận đơn hàng:"
         secondary={`30 phút làm việc kể từ: ${toDate(orderData?.createAt)}`}
-      />
+      /> */}
       {/* Receive Time */}
-      <ListOrderInfo
+      {/* <ListOrderInfo
         primary="Dự kiến nhận hàng:"
         secondary={`Thời gian nhận hàng: ${date}`}
-      />
+      /> */}
 
       {/* Order State */}
       <ListOrderInfo

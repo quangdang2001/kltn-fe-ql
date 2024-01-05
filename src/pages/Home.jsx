@@ -78,16 +78,16 @@ const Home = () => {
       <div className="mainContent">
         {/* <OptionPromote /> */}
         <EventList />
-        <GoldenWeek />
-        <TrendingShop />
-        <CategoryShop />
-        <DiscountPayOl />
+        {/* <GoldenWeek /> */}
+        {/* <TrendingShop /> */}
+        {/* <CategoryShop /> */}
+        {/* <DiscountPayOl /> */}
         <ServiceConvenient />
         <RecommendShop />
         <TechNews />
-        <TradeMark />
-        <NewChain />
-        <BHX />
+        {/* <TradeMark /> */}
+        {/* <NewChain /> */}
+        {/* <BHX /> */}
       </div>
     </div>
   );

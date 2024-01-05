@@ -9,7 +9,7 @@ const ServiceConvenient = () => {
     <div className='scWrap grid wide'>
         <div className="sc__top row">
             <div className="top__title col">
-                <h1>dịch vụ tiện ích</h1>
+                <h1>Dịch vụ tiện ích</h1>
             </div>
             <div className="top__bt col">
                 <Link to="/tien-ich">
@@ -19,7 +19,7 @@ const ServiceConvenient = () => {
             </div>
         </div>
         <div className="sc__content row">
-            <Link to="/">
+            <Link to="/sim-so-dep">
             <div className="sc__card sc__card--1 col">
                 <p>
                     <span className='red'>
@@ -41,7 +41,7 @@ const ServiceConvenient = () => {
                 </div>
             </div>
             </Link>
-            <Link to="/">
+            <Link to="/tien-ich/thanh-toan-tra-gop">
             <div className="sc__card sc__card--2 col">
                 <p>
                     <span className='red'>
@@ -63,7 +63,7 @@ const ServiceConvenient = () => {
                 </div>
             </div>
             </Link>
-            <Link to="/">
+            <Link to="/sim-so-dep">
             <div className="sc__card sc__card--3 col">
                 <p>
                     <span  className='red'>
@@ -85,7 +85,7 @@ const ServiceConvenient = () => {
                 </div>
             </div>
             </Link>
-            <Link to="/">
+            <Link to="/tien-ich/ve-tau-xe">
             <div className="sc__card sc__card--4 col">
                 <p>
                     <span className='red'>

@@ -62,9 +62,9 @@ const RecommendShop = () => {
       <ListProduct data={products} />
 
       {/* Button */}
-      <div className="rs__bt row">
+      {/* <div className="rs__bt row">
         <ListAllButton />
-      </div>
+      </div> */}
     </div>
   );
 };

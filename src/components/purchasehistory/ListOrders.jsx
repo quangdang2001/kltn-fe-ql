@@ -76,7 +76,7 @@ const ListOrders = () => {
           order.reverse().map((v, i) => {
             return (
               <div key={i}>
-                <Order data={v} />
+                <Order data={v} index={i}/>
                 <div className="line"></div>
               </div>
             );

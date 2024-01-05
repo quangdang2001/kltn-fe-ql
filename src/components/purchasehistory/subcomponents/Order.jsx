@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import orderController from "../../../features/order/function";
 import { Stack, Typography, Link as LinkMui } from "@mui/material";
 import OrderStateText from "./OrderStateText";
-const Order = ({ data }) => {
+const Order = ({ data,index}) => {
   // get img
   return (
     <Stack
@@ -24,10 +24,10 @@ const Order = ({ data }) => {
       alignItems="center"
     >
       <Typography
-        sx={{ flex: 2, fontSize: "11px" }}
+        sx={{ flex: 2, fontSize: "11px", textAlign: "center" }}
         variant="h6"
         className="width_15"
-      >{`#${data?._id.slice(0, 18)}`}</Typography>
+      >{`#${index+1}`}</Typography>
       <Stack
         sx={{ flex: 4 }}
         direction="row"
