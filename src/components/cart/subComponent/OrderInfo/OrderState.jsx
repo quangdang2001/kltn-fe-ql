@@ -7,6 +7,7 @@ import { useHistory } from "react-router-dom";
 import { toast } from "react-toastify";
 import OrderModal from "./OrderModal";
 import { toastObject } from "../../../../constants/toast";
+import { toVND } from "../../../../utils/format";
 
 const ListOrderInfo = React.lazy(() => import("./ListOrderInfo"));
 const OrderState = ({ orderData, setOrderData }) => {
@@ -81,6 +82,10 @@ const OrderState = ({ orderData, setOrderData }) => {
           setOpen={setModalOpen}
         />
       }
+      <ListOrderInfo
+        primary="Phí giao hàng:"
+        secondary={toVND(orderData?.shippingPrice)}
+      />
       {/* Process Time*/}
       <ListOrderInfo
         primary="Dự kiến xác nhận đơn hàng:"
@@ -118,7 +123,7 @@ const OrderState = ({ orderData, setOrderData }) => {
         >
           Mua thêm sản phẩm khác
         </Button>
-   
+
         <Button
           sx={{ textAlign: "center", fontSize: "11px", minWidth: "13em" }}
           endIcon={<DeleteIcon />}

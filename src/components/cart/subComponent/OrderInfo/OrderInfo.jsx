@@ -1,12 +1,6 @@
 import React from "react";
-import {
-  Divider,
-  List,
-  Stack,
-  ListItemAvatar,
-  Avatar,
-} from "@mui/material";
-import {toVND} from "../../../../utils/format"
+import { Divider, List, Stack, ListItemAvatar, Avatar } from "@mui/material";
+import { toVND } from "../../../../utils/format";
 const ListOrderInfo = React.lazy(() => import("./ListOrderInfo"));
 const UserInfo = ({ orderData }) => {
   return (
@@ -36,10 +30,7 @@ const UserInfo = ({ orderData }) => {
         />
 
         <ListItemAvatar>
-          <Avatar
-            alt="Ảnh đại diện"
-            src={`${orderData?.user?.avatar?.url}`}
-          />
+          <Avatar alt="Ảnh đại diện" src={`${orderData?.user?.avatar?.url}`} />
         </ListItemAvatar>
       </Stack>
 
