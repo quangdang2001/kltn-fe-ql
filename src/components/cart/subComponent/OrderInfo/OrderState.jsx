@@ -83,12 +83,12 @@ const OrderState = ({ orderData, setOrderData }) => {
       }
       {/* Process Time*/}
       <ListOrderInfo
-        primary="Chờ xác nhận đơn hàng:"
+        primary="Dự kiến xác nhận đơn hàng:"
         secondary={`30 phút làm việc kể từ: ${toDate(orderData?.createAt)}`}
       />
       {/* Receive Time */}
       <ListOrderInfo
-        primary="Chờ xác nhận đơn hàng:"
+        primary="Dự kiến nhận hàng:"
         secondary={`Thời gian nhận hàng: ${date}`}
       />
 
@@ -118,19 +118,7 @@ const OrderState = ({ orderData, setOrderData }) => {
         >
           Mua thêm sản phẩm khác
         </Button>
-        <Button
-          variant="outlined"
-          sx={{ textAlign: "center", fontSize: "11px", minWidth: "13em" }}
-          disabled={
-            orderData?.status?.statusNow.toUpperCase() === "CANCEL" ||
-            orderData?.status?.statusNow.toUpperCase() === "REFUND"
-          }
-          onClick={() => {
-            setModalOpen(!modalOpen);
-          }}
-        >
-          Yêu cầu thay đổi thông tin
-        </Button>
+   
         <Button
           sx={{ textAlign: "center", fontSize: "11px", minWidth: "13em" }}
           endIcon={<DeleteIcon />}

@@ -154,38 +154,7 @@ const OrderSuccess = () => {
         <OrderState orderData={orderData} setOrderData={setOrderData} />
 
         {/* RATE FOR SERVICE */}
-        <Divider
-          sx={{ fontSize: "12px", marginTop: "16px", fontStyle: "italic" }}
-        >
-          Đánh giá dịch vụ
-        </Divider>
-        <Stack
-          marginTop={1}
-          spacing={2}
-          direction="row"
-          justifyContent="space-between"
-          alignItems="center"
-        >
-          <Typography variant="h5">
-            Bạn có hài lòng về trải nghiệm mua hàng không
-          </Typography>
-          <Button
-            sx={{ textAlign: "center", fontSize: "12px", minWidth: "10em" }}
-            startIcon={<LoveIcon />}
-            variant="contained"
-            color="success"
-          >
-            Hài lòng
-          </Button>
-          <Button
-            sx={{ textAlign: "center", fontSize: "12px", minWidth: "14em" }}
-            startIcon={<BadIcon />}
-            variant="outlined"
-            color="error"
-          >
-            Không hài lòng
-          </Button>
-        </Stack>
+
       </div>
     </Stack>
   );

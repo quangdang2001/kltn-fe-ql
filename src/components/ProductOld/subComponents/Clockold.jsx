@@ -32,56 +32,7 @@ const Clockold = () => {
   }, []);
   return (
     <div>
-      <div className="thanhmenu">
-        <div className="menuhang">
-          <button className="item_btnx">
-            Hãng&nbsp;
-            <i class="fa-solid fa-caret-down"></i>
-          </button>
-          <div className="thebocngoaimenu">
-            <div className="thebocmuiten">
-              <div className="muiten"></div>
-              <div className="listmenu"></div>
-            </div>
-          </div>
-        </div>
-        <div className="menugia">
-          <button className="item_btnx">
-            Giá&nbsp;
-            <i class="fa-solid fa-caret-down"></i>
-          </button>
-          <div className="thebocngoaimenu">
-            <div className="thebocmuiten">
-              <div className="muiten"></div>
-              <div className="listmenu"></div>
-            </div>
-          </div>
-        </div>
-        <div className="menutinhnang">
-          <button className="item_btnx">
-            Tính năng&nbsp;
-            <i class="fa-solid fa-caret-down"></i>
-          </button>
-          <div className="thebocngoaimenu">
-            <div className="thebocmuiten">
-              <div className="muiten"></div>
-              <div className="listmenu"></div>
-            </div>
-          </div>
-        </div>
-        <div className="menusapxep">
-          <button className="item_btnx">
-            Sắp xếp&nbsp;
-            <i class="fa-solid fa-caret-down"></i>
-          </button>
-          <div className="thebocngoaimenu">
-            <div className="thebocmuiten">
-              <div className="muiten"></div>
-              <div className="listmenu"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+     
       <div className="listproduct_old">
         {listProduct.length > 0 && (
           <ListProductOld list={listProduct} qt={totalQt} />

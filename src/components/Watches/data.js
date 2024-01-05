@@ -1,5 +1,4 @@
-export const sliderWatch = [
-    {
+export const sliderWatch = [{
         id: 1,
         url: 'https://cdn.tgdd.vn/2022/07/banner/800-200-800x200-166.png'
     },
@@ -30,8 +29,7 @@ export const sliderWatch = [
 
 ]
 
-export const bannerWatch = [
-    {
+export const bannerWatch = [{
         id: 1,
         url: 'https://cdn.tgdd.vn/2022/06/banner/2-390x97.png'
     },
@@ -41,8 +39,7 @@ export const bannerWatch = [
     }
 ]
 
-export const optionWatches = [
-    {
+export const optionWatches = [{
         id: 1,
         title: 'Hãng'
     },
@@ -108,8 +105,7 @@ export const optionWatches = [
     }
 ]
 
-export const quickLink = [
-    {
+export const quickLink = [{
         id: 1,
         url: 'https://cdn.tgdd.vn/mwgcart/mwgcore/ContentMwg/images/icons8-hot_price@2x.png',
         title: 'Giảm sốc',
@@ -147,18 +143,17 @@ export const quickLink = [
     }
 ]
 
-export const images = [
-    {
+export const images = [{
         id: 1,
         url: 'https://cdn.tgdd.vn/2022/06/banner/MVW-STAR-420-X-260-420x260.png'
     },
-    {   
+    {
         id: 2,
         url: 'https://cdn.tgdd.vn/2021/12/banner/03-420x260.png'
     },
     {
         id: 3,
-        url:'https://cdn.tgdd.vn/2022/06/banner/420-x-260-420x260.png'
+        url: 'https://cdn.tgdd.vn/2022/06/banner/420-x-260-420x260.png'
     },
     {
         id: 4,
@@ -182,13 +177,12 @@ export const images = [
     }
 ]
 
-export const WatchCategories = [
-    {
+export const WatchCategories = [{
         id: 1,
         title: 'Đồng hồ độc quyền',
         url: 'https://cdn.tgdd.vn/2021/05/banner/DHDocquyendesk-330x428.jpg',
         pathname: '/dong-ho-doc-quyen'
-        
+
     },
 
     {
@@ -196,7 +190,7 @@ export const WatchCategories = [
         title: 'Đồng hồ cao cấp',
         url: 'https://cdn.tgdd.vn/2021/05/banner/DHCaocapDesk-330x428.png',
         pathname: '/dong-ho-cao-cap'
-        
+
     },
 
     {
@@ -204,14 +198,14 @@ export const WatchCategories = [
         title: 'Đồng hồ phái mạnh',
         url: 'https://cdn.tgdd.vn/2022/03/banner/Dhnamdesk-330x428-2.png',
         pathname: '/dong-ho-danh-cho-nam'
-        
+
     },
     {
         id: 4,
         title: 'Đồng hồ phái nữ',
         url: 'https://cdn.tgdd.vn/2022/07/banner/dh-nu-desk-330x428.png',
         pathname: '/dong-ho-danh-cho-nu'
-        
+
     },
     {
         id: 5,
@@ -229,26 +223,25 @@ export const WatchCategories = [
 ]
 
 
-export const listWatchProducts = [
-    {
+export const listWatchProducts = [{
         id: 1,
         url: 'https://cdn.tgdd.vn/Products/Images/7264/247105/dong-ho-nam-mvw-ml064-01-1.-600x600.jpg',
         catproduct: 'MVW',
         nameproduct: 'ML064-01',
-        priceold : '1.990.000đ',
-        discount : '-40%',
+        priceold: '1.990.000đ',
+        discount: '-40%',
         pricenew: '1.194.000đ'
-        
 
 
+
     },
     {
         id: 1,
         url: 'https://cdn.tgdd.vn/Products/Images/7264/247105/dong-ho-nam-mvw-ml064-01-1.-600x600.jpg',
         catproduct: 'MVW',
         nameproduct: 'ML064-01',
-        priceold : '1.990.000đ',
-        discount : '-40%',
+        priceold: '1.990.000đ',
+        discount: '-40%',
         pricenew: '1.194.000đ'
     },
     {
@@ -256,8 +249,8 @@ export const listWatchProducts = [
         url: 'https://cdn.tgdd.vn/Products/Images/7264/247105/dong-ho-nam-mvw-ml064-01-1.-600x600.jpg',
         catproduct: 'MVW',
         nameproduct: 'ML064-01',
-        priceold : '1.990.000đ',
-        discount : '-40%',
+        priceold: '1.990.000đ',
+        discount: '-40%',
         pricenew: '1.194.000đ'
     },
     {
@@ -265,48 +258,47 @@ export const listWatchProducts = [
         url: 'https://cdn.tgdd.vn/Products/Images/7264/247105/dong-ho-nam-mvw-ml064-01-1.-600x600.jpg',
         catproduct: 'MVW',
         nameproduct: 'ML064-01',
-        priceold : '1.990.000đ',
-        discount : '-40%',
+        priceold: '1.990.000đ',
+        discount: '-40%',
         pricenew: '1.194.000đ'
-        
+
     },
     {
         id: 1,
         url: 'https://cdn.tgdd.vn/Products/Images/7264/247105/dong-ho-nam-mvw-ml064-01-1.-600x600.jpg',
         catproduct: 'MVW',
         nameproduct: 'ML064-01',
-        priceold : '1.990.000đ',
-        discount : '-40%',
+        priceold: '1.990.000đ',
+        discount: '-40%',
         pricenew: '1.194.000đ'
-        
+
     },
-    
+
     {
         id: 1,
         url: 'https://cdn.tgdd.vn/Products/Images/7264/247105/dong-ho-nam-mvw-ml064-01-1.-600x600.jpg',
         catproduct: 'MVW',
         nameproduct: 'ML064-01',
-        priceold : '1.990.000đ',
-        discount : '-40%',
+        priceold: '1.990.000đ',
+        discount: '-40%',
         pricenew: '1.194.000đ'
-        
+
     },
-    
+
     {
         id: 1,
         url: 'https://cdn.tgdd.vn/Products/Images/7264/247105/dong-ho-nam-mvw-ml064-01-1.-600x600.jpg',
         catproduct: 'MVW',
         nameproduct: 'ML064-01',
-        priceold : '1.990.000đ',
-        discount : '-40%',
+        priceold: '1.990.000đ',
+        discount: '-40%',
         pricenew: '1.194.000đ'
-        
+
     },
-    
+
 ]
 
-export const wt_mono_categories = [
-    {
+export const wt_mono_categories = [{
         catid: 1,
         catname: 'MVW'
     },
@@ -328,8 +320,7 @@ export const wt_mono_categories = [
     }
 ]
 
-export const wt_high_end_categories = [
-    {
+export const wt_high_end_categories = [{
         catid: 1,
         catname: 'ORIENT'
     },
@@ -355,8 +346,7 @@ export const wt_high_end_categories = [
     }
 ]
 
-export const wt_for_men_categories = [
-    {
+export const wt_for_men_categories = [{
         catid: 1,
         catname: 'Đồng hồ thời trang'
     },
@@ -364,11 +354,10 @@ export const wt_for_men_categories = [
         catid: 2,
         catname: 'Đồng hồ thông minh'
     },
-    
+
 ]
 
-export const wt_for_women_categories = [
-    {
+export const wt_for_women_categories = [{
         catid: 1,
         catname: 'Đồng hồ thời trang'
     },
@@ -376,11 +365,10 @@ export const wt_for_women_categories = [
         catid: 2,
         catname: 'Đồng hồ thông minh'
     },
-    
+
 ]
 
-export const wt_for_couple_categories = [
-    {
+export const wt_for_couple_categories = [{
         catid: 1,
         catname: 'Dây da'
     },
@@ -392,12 +380,11 @@ export const wt_for_couple_categories = [
         catid: 3,
         catname: 'Kim'
     }
-    
+
 ]
 
 
-export const wt_for_children_categories = [
-    {
+export const wt_for_children_categories = [{
         catid: 1,
         catname: 'Dây da'
     },
@@ -409,11 +396,10 @@ export const wt_for_children_categories = [
         catid: 3,
         catname: 'Kim'
     }
-    
+
 ]
 
-export const line_strap = [
-    {
+export const line_strap = [{
         id: 1,
         name: 'Đồng hồ thời trang',
         url: 'https://cdn.tgdd.vn/Category/Quicklink/7978/1/090521-050308.jpg'
@@ -452,192 +438,184 @@ export const line_strap = [
 
 ]
 
-export const width_line_strap = [12,14,16,18,22]
+export const width_line_strap = [12, 14, 16, 18, 22]
 
 
-export const list_box_filter_watch = [
-    {
-        id:1,
+export const list_box_filter_watch = [{
+        id: 1,
         title: 'Hãng',
-        name:'brand',
-        dropDown: [
-            {
-                id:1,
-                img:'https://cdn.tgdd.vn/Brand/1/Casio7264-b_39.jpg'
+        name: 'brand',
+        dropDown: [{
+                id: 1,
+                img: 'https://cdn.tgdd.vn/Brand/1/Casio7264-b_39.jpg'
             },
             {
-                id:2,
-                img:'https://cdn.tgdd.vn/Brand/1/ORIENTl-220x48.jpg'
+                id: 2,
+                img: 'https://cdn.tgdd.vn/Brand/1/ORIENTl-220x48.jpg'
             },
             {
-                id:3,
-                img:'https://cdn.tgdd.vn/Brand/1/Movado-l-220x48-1.jpg'
+                id: 3,
+                img: 'https://cdn.tgdd.vn/Brand/1/Movado-l-220x48-1.jpg'
             },
             {
-                id:4,
-                img:'https://cdn.tgdd.vn/Brand/1/logo-protrek-220x48-5.jpg'
+                id: 4,
+                img: 'https://cdn.tgdd.vn/Brand/1/logo-protrek-220x48-5.jpg'
             },
             {
-                id:5,
-                img:'https://cdn.tgdd.vn/Brand/1/Citizen7264-b_41.jpg'
+                id: 5,
+                img: 'https://cdn.tgdd.vn/Brand/1/Citizen7264-b_41.jpg'
             },
             {
-                id:6,
-                img:'https://cdn.tgdd.vn/Brand/1/G-shock7264-b_36.jpg'
+                id: 6,
+                img: 'https://cdn.tgdd.vn/Brand/1/G-shock7264-b_36.jpg'
             },
             {
-                id:7,
-                img:'https://cdn.tgdd.vn/Brand/1/Baby-G7264-b_39.jpg'
+                id: 7,
+                img: 'https://cdn.tgdd.vn/Brand/1/Baby-G7264-b_39.jpg'
             },
             {
-                id:8,
-                img:'https://cdn.tgdd.vn/Brand/1/TITANl-220x48.png'
+                id: 8,
+                img: 'https://cdn.tgdd.vn/Brand/1/TITANl-220x48.png'
             },
             {
-                id:9,
-                img:'https://cdn.tgdd.vn/Brand/1/Elio7264-b_49.jpg'
+                id: 9,
+                img: 'https://cdn.tgdd.vn/Brand/1/Elio7264-b_49.jpg'
             },
             {
-                id:10,
-                img:'https://cdn.tgdd.vn/Brand/1/NAKZENl-220x48.png'
+                id: 10,
+                img: 'https://cdn.tgdd.vn/Brand/1/NAKZENl-220x48.png'
             },
             {
-                id:11,
-                img:'https://cdn.tgdd.vn/Brand/1/Q&Q7264-b_51.jpg'
+                id: 11,
+                img: 'https://cdn.tgdd.vn/Brand/1/Q&Q7264-b_51.jpg'
             },
             {
-                id:12,
-                img:'https://cdn.tgdd.vn/Brand/1/rossini7264-99(220%C3%9748px)(1)-220x48.jpg'
+                id: 12,
+                img: 'https://cdn.tgdd.vn/Brand/1/rossini7264-99(220%C3%9748px)(1)-220x48.jpg'
             },
             {
-                id:13,
-                img:'https://cdn.tgdd.vn/Brand/1/Frame3-220x48.jpg'
+                id: 13,
+                img: 'https://cdn.tgdd.vn/Brand/1/Frame3-220x48.jpg'
             },
             {
-                id:14,
-                img:'https://cdn.tgdd.vn/Brand/1/LascoteL-220x48.jpg'
+                id: 14,
+                img: 'https://cdn.tgdd.vn/Brand/1/LascoteL-220x48.jpg'
             },
         ],
     },
     {
-        id:2,
+        id: 2,
         title: 'Giá',
-        name:'price',
-        dropDown: [
-            {
-                content:'Dưới 1 triệu'
+        name: 'price',
+        dropDown: [{
+                content: 'Dưới 1 triệu'
             },
             {
-                content:'Từ 1 - 3 triệu'
+                content: 'Từ 1 - 3 triệu'
             },
             {
-                content:'Từ 3 - 5 triệu'
+                content: 'Từ 3 - 5 triệu'
             },
             {
-                content:'Từ 5 - 7 triệu'
+                content: 'Từ 5 - 7 triệu'
             },
             {
-                content:'Từ 7 - 15 triệu'
+                content: 'Từ 7 - 15 triệu'
             },
             {
-                content:'Từ 15 - 30 triệu'
+                content: 'Từ 15 - 30 triệu'
             },
             {
-                content:'Trên 30 - 50 triệu'
+                content: 'Trên 30 - 50 triệu'
             },
             {
-                content:'Trên 50 triệu'
+                content: 'Trên 50 triệu'
             },
         ],
     },
     {
-        id:3,
+        id: 3,
         title: 'Giới tính',
-        name:'gender',
-        dropDown: [
-            {
-                content:'Nam'
+        name: 'gender',
+        dropDown: [{
+                content: 'Nam'
             },
             {
-                content:'Nữ'
+                content: 'Nữ'
             },
             {
-                content:'Cặp đôi'
+                content: 'Cặp đôi'
             },
             {
-                content:'Trẻ em'
+                content: 'Trẻ em'
             },
             {
-                content:'Unisex'
+                content: 'Unisex'
             },
         ],
     },
     {
-        id:4,
+        id: 4,
         title: 'Đường kính mặt',
-        name:'diameter',
-        dropDown: [
-            {
-                content:'Dưới 29 mm'
+        name: 'diameter',
+        dropDown: [{
+                content: 'Dưới 29 mm'
             },
             {
-                content:'29 - 33 mm'
+                content: '29 - 33 mm'
             },
             {
-                content:'33 - 37 mm'
+                content: '33 - 37 mm'
             },
             {
-                content:'37 -40 mm'
+                content: '37 -40 mm'
             },
             {
-                content:'40 - 42 mm'
+                content: '40 - 42 mm'
             },
             {
-                content:'42 - 45 mm'
+                content: '42 - 45 mm'
             },
             {
-                content:'Trên 45 mm'
+                content: 'Trên 45 mm'
             },
         ],
     },
     {
-        id:5,
+        id: 5,
         title: 'Màu sắc',
-        name:'color',
-        dropDown: [
-            {
-                content:'Bạc'
+        name: 'color',
+        dropDown: [{
+                content: 'Bạc'
             },
             {
-                content:'Cam'
+                content: 'Cam'
             },
             {
-                content:'Đen'
+                content: 'Đen'
             },
             {
-                content:'Đỏ'
+                content: 'Đỏ'
             },
             {
-                content:'Hồng'
+                content: 'Hồng'
             },
             {
-                content:'Kem'
+                content: 'Kem'
             },
             {
-                content:'Nâu'
+                content: 'Nâu'
             },
             {
-                content:'Tím'
+                content: 'Tím'
             },
             {
-                content:'Trắng'
+                content: 'Trắng'
             },
             {
-                content:'Vàng'
+                content: 'Vàng'
             },
         ],
     },
-   
+
 ]
-
-

@@ -2,6 +2,7 @@ import { React, useState } from "react";
 import { Link, Redirect, useHistory } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { toastObject } from "../constants/toast";
+import { API_BASE_URL } from "../constants";
 import {
   selectLoginStatus,
   selectAuthState,
@@ -16,7 +17,6 @@ import { toast } from "react-toastify";
 
 // Function
 import authController from "../features/auth/functions";
-import { setRender } from "../features/cart/cartSlice";
 import Loader from "../components/loading/Loader";
 import { useEffect } from "react";
 
@@ -130,7 +130,7 @@ const Login = () => {
 
                 <div className="login_form_btn_socials">
                   <a
-                    href="https://kltn-be-ql.onrender.com/api/oauth2/google"
+                    href={`${API_BASE_URL}/oauth2/google`}
                     className="btn btn_icon flex_center"
                   >
                     <i className="fa-brands fa-google "></i>
@@ -138,7 +138,7 @@ const Login = () => {
                   </a>
 
                   <a
-                    href="https://kltn-be-ql.onrender.com/api/oauth2/facebook"
+                    href={`${API_BASE_URL}/oauth2/facebook`}
                     className="btn btn_icon flex_center"
                   >
                     <i className="fa-brands fa-facebook "></i>
@@ -207,7 +207,7 @@ const Login = () => {
             </div>
             <div className="login_form_btn_socials">
               <a
-                href="https://kltn-be-ql.onrender.com/api/oauth2/google"
+                href={`${API_BASE_URL}/oauth2/google`}
                 className="btn btn_icon flex_center"
               >
                 <i className="fa-brands fa-google "></i>
@@ -215,7 +215,7 @@ const Login = () => {
               </a>
 
               <a
-                href="https://kltn-be-ql.onrender.com/api/oauth2/facebook"
+                href={`${API_BASE_URL}/oauth2/facebook`}
                 className="btn btn_icon flex_center"
               >
                 <i className="fa-brands fa-facebook "></i>

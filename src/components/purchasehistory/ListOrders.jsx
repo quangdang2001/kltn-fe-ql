@@ -34,31 +34,7 @@ const ListOrders = () => {
   }, []);
   return (
     <div className="list_orders">
-      <Divider textAlign="right" sx={{ marginBottom: "1rem" }}>
-        <Typography
-          variant="h6"
-          fontStyle="italic"
-          fontWeight="bold"
-          sx={{
-            minWidth: "20em",
-            display: "flex",
-            justifyContent: "flex-end",
-            alignItems: "center",
-          }}
-          textTransform="uppercase"
-        >
-          {`ĐƠN HÀNG MUA GẦN ĐÂY-`}
-          <Typography
-            variant="h6"
-            fontStyle="italic"
-            color="blue"
-            fontWeight="bold"
-            textTransform="uppercase"
-          >
-            {`${currentUser.name}`}
-          </Typography>
-        </Typography>
-      </Divider>
+
 
       <Stack direction="row" justifyContent="space-between" alignItems="center">
         <Typography

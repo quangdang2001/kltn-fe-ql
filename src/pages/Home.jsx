@@ -76,7 +76,7 @@ const Home = () => {
     <div className="bigBanner">
       <BigBanner />
       <div className="mainContent">
-        <OptionPromote />
+        {/* <OptionPromote /> */}
         <EventList />
         <GoldenWeek />
         <TrendingShop />

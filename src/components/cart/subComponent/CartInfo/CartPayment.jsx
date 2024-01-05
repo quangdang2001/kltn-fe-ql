@@ -44,7 +44,7 @@ const CartPayment = ({ setPaymentMethod, paymentMethod }) => {
         </FormLabel>
         <RadioGroup aria-labelledby="cart-payment-type-select">
           <FormControlLabel
-            onChange={() => setPaymentMethod("cod")}
+            onClick={() => setPaymentMethod("cod")}
             checked={paymentMethod == "cod" ? "checked" : false}
             label={
               <Typography variant="h5">Thanh toán khi nhận hàng</Typography>
@@ -52,7 +52,7 @@ const CartPayment = ({ setPaymentMethod, paymentMethod }) => {
             control={<Radio />}
           />
           <FormControlLabel
-            onChange={() => setPaymentMethod("cod1")}
+            onClick={() => setPaymentMethod("cod1")}
             checked={paymentMethod == "cod1" ? "checked" : false}
             label={
               <Typography variant="h5">
@@ -98,7 +98,10 @@ const CartPayment = ({ setPaymentMethod, paymentMethod }) => {
                     }
                   />
                 }
-                onChange={() => setPaymentMethod("paypal")}
+                onClick={() =>{
+                  console.log('paypal')
+                  setPaymentMethod("paypal")
+                  }}
                 checked={paymentMethod == "paypal" ? "checked" : false}
               />
               <FormControlLabel
@@ -123,7 +126,7 @@ const CartPayment = ({ setPaymentMethod, paymentMethod }) => {
                     disabledI
                   />
                 }
-                onChange={() => setPaymentMethod("stripe")}
+                onClick={() => setPaymentMethod("stripe")}
                 checked={paymentMethod == "stripe" ? "checked" : false}
               />
             </RadioGroup>

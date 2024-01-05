@@ -13,6 +13,7 @@ import authController from "../features/auth/functions";
 import Loader from "../components/loading/Loader";
 import { toastObject } from "../constants/toast";
 import BombMessage from "../components/alert/BombMessage";
+import { API_BASE_URL } from "../constants/index.js";
 //
 const AddressSelect = React.lazy(() =>
   import("../components/register/AddressSelect")
@@ -145,7 +146,7 @@ const Register = () => {
 
             <div className="register_form_btn_socials">
               <a
-                href="https://kltn-be-ql.onrender.com/api/oauth2/google"
+                href={`${API_BASE_URL}/oauth2/google`}
                 className="btn btn_icon flex_center"
               >
                 <i className="fa-brands fa-google "></i>
@@ -153,7 +154,7 @@ const Register = () => {
               </a>
 
               <a
-                href="https://kltn-be-ql.onrender.com/api/oauth2/facebook"
+                href={`${API_BASE_URL}/oauth2/facebook`}
                 className="btn btn_icon flex_center"
               >
                 <i className="fa-brands fa-facebook "></i>
