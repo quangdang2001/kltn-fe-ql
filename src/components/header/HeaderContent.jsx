@@ -225,18 +225,18 @@ const HeaderContent = () => {
             </Link>
           </div>
           {/* Location */}
-          <div className={`top__location`}>
-            <div className="location__item" onClick={locationShow}>
-              {/* <LazyLoadImage src={location} /> */}
+          {/* <div className={`top__location`}> */}
+            {/* <div className="location__item" onClick={locationShow}>
+              <LazyLoadImage src={location} />
               <span className="location__text">
                 {locationI || "Hồ Chí Minh"}
               </span>
               <div>
                 <i className="fa-solid fa-location-pin"></i>
               </div>
-            </div>
+            </div> */}
 
-            <ul className={`top__menu ${lShow ? "show" : ""}`}>
+            {/* <ul className={`top__menu ${lShow ? "show" : ""}`}>
               {data.map((v, i) => {
                 return (
                   <li
@@ -248,8 +248,8 @@ const HeaderContent = () => {
                   </li>
                 );
               })}
-            </ul>
-          </div>
+            </ul> */}
+          {/* </div> */}
           {/* Search */}
           <div className="top__search">
             <div className="search__form" action="/" method="GET">
@@ -312,7 +312,7 @@ const HeaderContent = () => {
               </div>
             )}
           </div>
-          &nbsp;
+      
           {/* Cart */}
           <Link to={status ? `/cart` : "/login"} onClick={checkAuthen}>
             <div

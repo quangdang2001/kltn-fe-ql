@@ -209,7 +209,7 @@ const Introduce = ({ product }) => {
         </div>
 
         <div class="product_introduce_price_location ">
-          <div>
+          {/* <div>
             <span>
               Giá tại
               <Link
@@ -221,7 +221,7 @@ const Introduce = ({ product }) => {
               </Link>
               <i class="product_introduce_price_icon fa-solid fa-angle-down"></i>
             </span>
-          </div>
+          </div> */}
           <ul className={`top__menu ${lShow ? "show" : ""}`}>
             {data.map((v, i) => {
               return (
