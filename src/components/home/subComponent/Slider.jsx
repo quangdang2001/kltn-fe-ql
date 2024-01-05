@@ -5,6 +5,7 @@ import prevI from "../../../assets/images/home/prevI.png";
 import "../../../assets/css/home/slider.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import {Link} from "react-router-dom"
 //#region Nav bt
 const addClass = (e, className) => {
   e.target.classList.add(className);
@@ -33,7 +34,7 @@ const PrevArr = (props) => {
         }}
         src={prevI}
       /> */}
-            <div
+      <div
         onMouseEnter={(e) => {
           addClass(e, "rotate");
           setPrevS(!prevS);
@@ -108,7 +109,9 @@ const Slider = ({ ...props }) => {
           {props.data.map((v, i) => {
             return (
               <div key={i} className="sliderList__item scale-hover">
-                <LazyLoadImage src={v.path} />
+                <Link to="/phone">
+                  <LazyLoadImage src={v.path} />
+                </Link>
               </div>
             );
           })}

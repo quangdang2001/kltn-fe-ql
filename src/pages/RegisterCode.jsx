@@ -7,6 +7,7 @@ import authController from "../features/auth/functions";
 import { useHistory, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import { toastObject } from "../constants/toast";
+import { API_BASE_URL } from "../constants";
 
 const RegisterCode = (props) => {
   const [values, setValues] = useState({
@@ -191,7 +192,7 @@ const RegisterCode = (props) => {
 
           <div className="register_form_btn_socials">
             <a
-              href="https://kltn-be-ql.onrender.com/api/oauth2/google"
+              href={`${API_BASE_URL}/oauth2/google`}
               className="btn btn_icon flex_center"
             >
               <i className="fa-brands fa-google "></i>
@@ -199,7 +200,7 @@ const RegisterCode = (props) => {
             </a>
 
             <a
-              href="https://kltn-be-ql.onrender.com/api/oauth2/facebook"
+              href={`${API_BASE_URL}/oauth2/facebook`}
               className="btn btn_icon flex_center"
             >
               <i className="fa-brands fa-facebook "></i>

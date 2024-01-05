@@ -25,8 +25,9 @@ const Phone = () => {
   const [filter, setFilter] = useState(0);
 
   useEffect(() => {
+    console.log(showSub)
     productHandler
-      .getProductsByCategory({ categoryName: "Điện thoại" })
+      .getProductsByCategory({ categoryName: "Điện thoại",body:showSub })
       .then((res) => {
         console.log(res.isLoading);
         setIsLoading(res.isLoading);

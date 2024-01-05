@@ -23,10 +23,14 @@ export const productApiSlice = apiSlice.injectEndpoints({
         //By Category
 
         getProductsByCategory: builder.query({
-            query: ({ categoryName }) => ({
-                url: `/products/category/${categoryName}`,
-                method: "GET",
-            }),
+            query: ({ categoryName, ...body }) => {
+                console.log({ categoryName, body })
+                return {
+                    url: `/products/category/${categoryName}`,
+                    method: "GET",
+                    params: {...body }
+                }
+            },
         }),
 
         // Top Products

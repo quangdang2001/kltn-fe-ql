@@ -111,15 +111,7 @@ const PurchaseHistory = (props) => {
         </button>
       </div>
       <div className="purchase_history_box_right">
-        <div className="purchase_history_box_right_title">
-          <div className="purchase_history_box_right_title_right flex">
-            <button className="logout_btn_history">
-              <i class="fa-regular fa-comment-dots mg_r_5"></i>Phản hồi,góp ý
-            </button>
-            <div className="seperate"></div>
-            <button className="logout_btn_history">Thoát tài khoản</button>
-          </div>
-        </div>
+     
         <div className="purchase_history_box_right_main border">
           {/* Chưa có đơn hàng */}
 

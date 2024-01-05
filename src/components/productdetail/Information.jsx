@@ -19,22 +19,9 @@ const Information = ({ product }) => {
         }`}
       >
         <h1 class="product_infor_header">Thông tin sản phẩm</h1>
-        {/* {infor.map((v, i) => (
-          <div class="product_infor_feature" key={i}>
-            <h2 class="product_infor_feature_header">{v}</h2>
-            <p class="product_infor_feature_detail">{v.description}</p>
-            <img src={v.img} alt="" class="product_infor_feature_img" />
-          </div>
-        ))} */}
+
         <h2 class="product_infor_feature_header">{infor}</h2>
-        {/* <div class={`product_infor_toggle flex_100_width flex_center`}>
-          <button
-            class={`product_information_btn_80 `}
-            onClick={() => setfeatureExpand(!featureExpand)}
-          >
-            {featureExpand ? "Thu gọn" : "Xem thêm"}
-          </button>
-        </div> */}
+ 
       </div>
 
       {/* Thông số kỹ thuật */}

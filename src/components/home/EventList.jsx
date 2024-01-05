@@ -77,9 +77,9 @@ const EventList = () => {
             />
           </div>
           {/* Bt */}
-          <div className="lcBt row">
+          {/* <div className="lcBt row">
             <ListAllButton />
-          </div>
+          </div> */}
         </div>
       ))
     ) : (

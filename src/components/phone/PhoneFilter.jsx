@@ -48,7 +48,7 @@ const PhoneFilter = ({ filter, setShowSub, listProduct, setListProduct }) => {
             </button>
           </div>
 
-          <div className="phone_hangx">
+          {/* <div className="phone_hangx">
             <button
               className="phone_item_btn"
               onClick={() => {
@@ -187,7 +187,7 @@ const PhoneFilter = ({ filter, setShowSub, listProduct, setListProduct }) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="phone_giax">
             <button
@@ -209,8 +209,11 @@ const PhoneFilter = ({ filter, setShowSub, listProduct, setListProduct }) => {
                     ? `phone_thecongia active`
                     : `phone_thecongia`
                 }
-                // ref={btnRef}
-                // className="phone_thecongia"
+                 style={{
+                  position:'relative',
+zIndex:'50'
+                 }}
+
               >
                 <div className="phone_box_quicklinkgia">
                   <button
@@ -281,7 +284,7 @@ const PhoneFilter = ({ filter, setShowSub, listProduct, setListProduct }) => {
                       setShowSub({
                         manufacturerId: 0,
                         categoryId: 1,
-                        subCategoryId: 9,
+                        subCategoryId: '63743fa09878bcdd84b437a7',
                         page: 1,
                         size: 20,
                       })
@@ -296,7 +299,7 @@ const PhoneFilter = ({ filter, setShowSub, listProduct, setListProduct }) => {
                       setShowSub({
                         manufacturerId: 0,
                         categoryId: 1,
-                        subCategoryId: 8,
+                        subCategoryId: `63743fa09878bcdd84b437a6`,
                         page: 1,
                         size: 20,
                       })
@@ -312,7 +315,7 @@ const PhoneFilter = ({ filter, setShowSub, listProduct, setListProduct }) => {
             </div>
           </div>
 
-          <div className="phone_kichthuocmanhinhx">
+          {/* <div className="phone_kichthuocmanhinhx">
             <button
               className="phone_item_btn"
               onClick={() => {
@@ -346,9 +349,9 @@ const PhoneFilter = ({ filter, setShowSub, listProduct, setListProduct }) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="phone_ramx">
+          {/* <div className="phone_ramx">
             <button
               className="phone_item_btn"
               onClick={() => {
@@ -417,8 +420,8 @@ const PhoneFilter = ({ filter, setShowSub, listProduct, setListProduct }) => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="phone_hieunangx">
+          </div> */}
+          {/* <div className="phone_hieunangx">
             <button className="phone_item_btn">
               Pin & Sạc &nbsp;
               <i className="fa-solid fa-caret-down"></i>
@@ -465,19 +468,19 @@ const PhoneFilter = ({ filter, setShowSub, listProduct, setListProduct }) => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
-      <div className="phone_box_quicklink">
+      {/* <div className="phone_box_quicklink">
         <div className="phone_cangiua">Tìm kiếm nhiều nhất&emsp;</div>
 
         <button className="phone_quicklink">Hỗ trợ nghe gọi</button>
         <button className="phone_quicklink">Pin khủng</button>
         <button className="phone_quicklink">Chơi game</button>
-      </div>
+      </div> */}
 
-      <div className="phone_box_quicklink_nhucau">
+      {/* <div className="phone_box_quicklink_nhucau">
         <div className="phone_cangiua">Chọn điện thoại theo nhu cầu&emsp;</div>
         <div className="phone_box_quicklink">
           <button style={{ width: "185px" }} className="phone_quicklink">
@@ -491,28 +494,15 @@ const PhoneFilter = ({ filter, setShowSub, listProduct, setListProduct }) => {
             Nhỏ gọn dễ cầm
           </button>
         </div>
-      </div>
+      </div> */}
 
       <div className="phone_checkboxtablet">
         <div className="phone_cangiua2">{listProduct?.length} Điện thoại</div>
-        <label htmlFor="" className="phone_labelbox" id="mauxanh">
-          <input type="checkbox"></input> <i className="fa-solid fa-bolt"></i>
-          &nbsp;Giao nhanh
-        </label>
-        <label htmlFor="" className="phone_labelbox">
-          <input type="checkbox"></input> Giảm giá
-        </label>
-        <label htmlFor="" className="phone_labelbox">
-          <input type="checkbox"></input> Góp 0%
-        </label>
-        <label htmlFor="" className="phone_labelbox">
-          <input type="checkbox"></input> Độc quyền
-        </label>
-        <label htmlFor="" className="phone_labelbox">
-          <input type="checkbox"></input> Mới
-        </label>
+  
 
-        <div className="phone_options">
+        <div className="phone_options" style={{
+          width: "100%",
+        }}>
           <label style={{ marginRight: "10px" }} htmlFor="Sapxep">
             Sắp xếp theo:
           </label>

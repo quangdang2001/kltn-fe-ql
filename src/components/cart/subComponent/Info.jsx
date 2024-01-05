@@ -144,7 +144,7 @@ const Info = ({ orderInfo, setOrderInfo, setDetailAddress, detailAddress }) => {
               <input
                 type="text"
                 name="name"
-                disabled
+                // disabled
                 className="has_cart_infor_user_input_infor input"
                 value={currentUser?.name}
                 onChange={handleInputChange}
@@ -157,7 +157,7 @@ const Info = ({ orderInfo, setOrderInfo, setDetailAddress, detailAddress }) => {
               </label>
               <input
                 type="text"
-                disabled
+                // disabled
                 name="phone"
                 className="has_cart_infor_user_input_infor input"
                 value={currentUser?.phone}

@@ -5,12 +5,13 @@ import {
   clearFromLocalStorage,
   getFromLocalStorage,
 } from "../utils/tokenHandle";
+import { API_BASE_URL } from "../constants";
 
 // fetch
 const baseQuery = fetchBaseQuery({
   // local
   // baseUrl: "https://tgddgroup04.herokuapp.com/api",
-  baseUrl: "https://kltn-be-ql.onrender.com/api",
+  baseUrl: API_BASE_URL,
   // baseUrl: "http://localhost:5000/api",
   // baseUrl: "http://192.168.1.6:5000/api",
 
