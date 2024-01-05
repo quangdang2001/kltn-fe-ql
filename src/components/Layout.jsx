@@ -14,7 +14,6 @@ import LoadingPage from "../pages/LoadingPage";
 //
 import { store } from "../redux/stores";
 import { Provider } from "react-redux";
-import ChatBot from "./ChatBot";
 import AddCompareProduct from "./AddCompareProduct";
 import AuthMiddleware from "../routes/middleware/Auth";
 //
@@ -38,7 +37,6 @@ const Layout = () => {
                       </AuthMiddleware>
                     </div>
                   </div>
-                  <ChatBot />
                   <AddCompareProduct />
                   <Footer />
                 </div>
