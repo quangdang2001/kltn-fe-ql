@@ -153,13 +153,13 @@ const Register = () => {
                 Google
               </a>
 
-              <a
+              {/* <a
                 href={`${API_BASE_URL}/oauth2/facebook`}
                 className="btn btn_icon flex_center"
               >
                 <i className="fa-brands fa-facebook "></i>
                 Facebook
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

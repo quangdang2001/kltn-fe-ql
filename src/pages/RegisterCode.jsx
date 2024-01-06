@@ -131,11 +131,11 @@ const RegisterCode = (props) => {
                 <i className="fa-brands fa-google "></i>
                 Google
               </a>
-
+{/* 
               <a href="/#" className="btn btn_icon flex_center">
                 <i className="fa-brands fa-facebook "></i>
                 Facebook
-              </a>
+              </a> */}
             </div>
 
             <div className="registercode_register">

@@ -33,12 +33,7 @@ const PaymentMethod = () => {
             <Skeleton variant="circular" height="20px" width="20px" />
             <Typography variant="h5">Thanh toán khi nhận hàng</Typography>
           </Stack>
-          <Stack direction="row" spacing={1} alignItems="center">
-            <Skeleton variant="circular" height="20px" width="20px" />
-            <Typography variant="h5">
-              Nhân viên mang máy cà thẻ khi nhận hàng
-            </Typography>
-          </Stack>
+        
           <Stack direction="row" spacing={1} alignItems="center">
             <Skeleton variant="circular" height="20px" width="20px" />
             <Typography variant="h5">Qua thẻ ATM có smartbanking</Typography>

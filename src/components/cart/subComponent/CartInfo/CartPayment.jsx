@@ -51,16 +51,7 @@ const CartPayment = ({ setPaymentMethod, paymentMethod }) => {
             }
             control={<Radio />}
           />
-          <FormControlLabel
-            onClick={() => setPaymentMethod("cod1")}
-            checked={paymentMethod == "cod1" ? "checked" : false}
-            label={
-              <Typography variant="h5">
-                Nhân viên mang máy cà thẻ khi nhận hàng
-              </Typography>
-            }
-            control={<Radio />}
-          />
+       
           <FormControlLabel
             label={
               <Typography variant="h5">Qua thẻ ATM có smartbanking</Typography>
@@ -104,31 +95,7 @@ const CartPayment = ({ setPaymentMethod, paymentMethod }) => {
                   }}
                 checked={paymentMethod == "paypal" ? "checked" : false}
               />
-              <FormControlLabel
-                control={
-                  <Radio
-                    sx={{ padding: "0" }}
-                    checkedIcon={
-                      <LazyLoadImage
-                        style={{
-                          width: "18rem",
-                          boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
-                        }}
-                        src="https://kinsta.com/wp-content/uploads/2017/01/stripe-for-wordpress.png"
-                      />
-                    }
-                    icon={
-                      <LazyLoadImage
-                        style={{ width: "16rem", opacity: 0.4 }}
-                        src="https://kinsta.com/wp-content/uploads/2017/01/stripe-for-wordpress.png"
-                      />
-                    }
-                    disabledI
-                  />
-                }
-                onClick={() => setPaymentMethod("stripe")}
-                checked={paymentMethod == "stripe" ? "checked" : false}
-              />
+          
             </RadioGroup>
           </FormControl>
         </RadioGroup>
